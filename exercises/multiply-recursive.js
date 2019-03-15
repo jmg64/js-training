@@ -20,7 +20,7 @@ function multiply(x,y){
         return -multiply(x, -y);
     }
 
-    else if (x = 0 && y < 0){
+    else if (x == 0 && y == 0){
         return 0;
     }
 
