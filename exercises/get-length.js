@@ -8,6 +8,14 @@
  */
 
 // Your code :
+function getLength(long){
+ const array1 = [2, 42];
+ const array2 = ['pouet', 4, true];
+ const string1 = 'salut';
+ const array3 = Array(100);
+ return long.length
+}
+
 
 //* Begin of tests
 const assert = require('assert')

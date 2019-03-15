@@ -8,6 +8,13 @@
  */
 
 // Your code :
+function getFirst(firstEl){
+    const array1 = [2, 42];
+    const array2 = ['pouet', 4, true];
+    const string1 = 'salut';
+    const arrayU = [];
+    return firstEl[0];
+}
 
 //* Begin of tests
 const assert = require('assert')

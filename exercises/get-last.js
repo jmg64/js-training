@@ -8,7 +8,12 @@
  */
 
 // Your code :
-
+function getLast(lastEl){
+    const array1 = [2, 42];
+    const array2 = ['pouet', 4, true];
+    const string1 = 'salut';
+    return lastEl[lastEl.length - 1];
+}
 //* Begin of tests
 const assert = require('assert')
 
