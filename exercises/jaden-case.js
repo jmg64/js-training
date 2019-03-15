@@ -9,11 +9,21 @@
  * Example : "How are you ?" -> "How Are You ?"
  *
  */
+function jadenCase(strCap){
+    return strCap.replace(/\w\S*/g, function(txt){
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    }) 
+}
+
+console.log(jadenCase('what the heck!'));
+
 
 
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(typeof jadenCase, 'function')
+assert.strictEqual(jadenCase('what the heck!'), 'What The Heck!')
+
 // End of tests */
